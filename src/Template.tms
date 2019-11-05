@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<mapsource inline='true' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapAttribution2 predowngraded='true' />
+    <MapboxVectorBuiltInAndUserStyles />
+  </document-format-change-manifest>
+  <connection api-key='token' class='CustomMapbox' inline='true' offline='' port='port' server='server' url='styles/v1' url-format='/styles/v1/username/{L}/tiles/{Z}/{X}/{Y}{D}?access_token=token' username='username' wait-tile-color='#dddddd' />
+  <languages />
+  <layers>
+    <layer display-name='styleName1' name='styleID1' show-ui='true' type='features' />
+    <layer display-name='styleName2' name='styleID2' show-ui='true' type='features' />
+  </layers>
+  <properties />
+  <map-styles>
+    <map-style display-name='styleName1' name='mapbox://styles/username/styleID1' wait-tile-color='#dddddd'>
+      <map-layer-style name='styleName1' request-string='styleID1' />
+    </map-style>
+    <map-style display-name='styleName2' name='mapbox://styles/username/styleID2' wait-tile-color='#dddddd'>
+      <map-layer-style name='styleName2' request-string='styleID2' />
+    </map-style>
+  </map-styles>
+  <mapsource-defaults version='18.1'>
+    <style>
+      <style-rule element='map'>
+        <format attr='map-style' value='mapbox://styles/username/styleID1' />
+        <format attr='washout' value='0' />
+      </style-rule>
+      <style-rule element='map'>
+        <format attr='map-style' value='mapbox://styles/username/styleID2' />
+        <format attr='washout' value='0' />
+      </style-rule>
+    </style>
+  </mapsource-defaults>
+  <map-attribution copyright-string='© %1 Mapbox' copyright-url='https://mapbox.com/about/maps' short-copyright-string='' />
+  <map-attribution2 copyright-string='©OpenStreetMap' copyright-url='https://mapbox.com/about/maps' short-copyright-string='©OSM' />
+</mapsource>

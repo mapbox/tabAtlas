@@ -1,0 +1,27 @@
+{
+  "name": "tableauatlas",
+  "version": "0.1.0",
+  "description": "An interface for connecting Tableau to Mapbox Atlas",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "build": "pkg . --targets macos,win,linux --output tableauAtlasConfig"
+  },
+  "author": {
+    "name": "Mapbox Solutions",
+    "email": "solutions_architecture@mapbox.com"
+  },
+  "pkg": {
+    "assets": "*.tms"
+  },
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "fast-xml-parser": "^3.12.20",
+    "node-fetch": "^2.6.0",
+    "vorpal": "^1.12.0",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.0"
+  }
+}
