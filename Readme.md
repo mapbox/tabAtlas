@@ -6,7 +6,7 @@ In these cases, [Mapbox Atlas](https://www.mapbox.com/atlas/) is a solution for 
 
 When using Mapbox Atlas (or the Tableau maps proxy), configuration requires [hand-editing of TMS files](https://community.tableau.com/docs/DOC-10159). This process is error-prone and when successful, hard to distribute to Desktop users. This is due to Tableau Desktop needing a `mapbox.com` URL.
 
-The **Tableau + Atlas Configuration CLI** automates this process using the same user workflow as a custom style. When it completes, the Tableau user will have a valid TMS placed in their Tableau repository. Upon opening Tableau Desktop (or Tableau Server web-editing), they will have the option to switch to the Atlas-based map style and select it as default for future workbooks.
+The **Tableau + Atlas Configuration CLI** or `tabAtlas` automates this process using the same user workflow as a custom style. When it completes, the Tableau user will have a valid TMS placed in their Tableau repository. Upon opening Tableau Desktop (or Tableau Server web-editing), they will have the option to switch to the Atlas-based map style and select it as default for future workbooks.
 
 The CLI is intended for both Desktop users and Server Administrators. Desktop users can use the tool a single time and set the new map source as a default. Server Administrators can use the tool to create a single authoritative TMS to distribute via wikis, fileshares, or their own distributed packaged installer as well as place on Server for web-editing use.
 
