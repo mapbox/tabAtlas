@@ -46,7 +46,7 @@ You can also specify the `Beta` version of your Repository if you want to test w
 - Style: This is the same URL you would use to add a custom style in Tableau today. You can find these from the `Share` menu in Mapbox Studio
 
 ```url
-https://api.mapbox.com/styles/v1/christoomey/ck0mobt183y251cns2219uf09.html?title=true&access_token=pk.eyJ1IjoiY2hyaXN0b29tZXkiLCJhIjoiY2phMnVxc2p4M2NmbTM0cGM4aXpscGtmZyJ9.Pap5yG2c5LwCWAXuQwq7pg#9/37.78/-122.4241
+https://api.mapbox.com/styles/v1/mbxsolutions/ck2mcwoz10bj31cqrxs781qmk.html?title=true&access_token=pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm5uZWZpdjAzdTQzZ210eXJ1dnM3dnkifQ.hLiRMezDCPS1SgGUC1KJsQ#9.0/37.780000/-122.424100/0
 ```
 
 - Name: These are what appear in your Layers list in the `Map Layers` dropdown menu.
