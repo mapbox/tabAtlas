@@ -127,3 +127,5 @@ When your work is complete, you can compile your binaries with `npm run build`.
 ## License
 
 This project is licensed under the BSD-3-Clause License - see the [LICENSE.md](./LICENSE) file for details
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmapbox%2FtabAtlas.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmapbox%2FtabAtlas?ref=badge_large)
