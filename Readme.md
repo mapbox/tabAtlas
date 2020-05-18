@@ -43,7 +43,11 @@ Example:
 
 You can also specify the `Beta` version of your Repository if you want to test with Tableau Desktop betas.
 
-- Style: This is the same URL you would use to add a custom style in Tableau today. You can find these from the `Share` menu in Mapbox Studio
+- Style: This is the same URL you would use to add a custom style in Tableau today. You can find these from the `Share` menu in Mapbox Studio. Under `Developer Resources`, select `Third party` and then pick `Tableau` from the drop-down
+
+![ThirdParty](assets/third-party.png).
+
+Your URL should look like this:
 
 ```url
 https://api.mapbox.com/styles/v1/mbxsolutions/ck2mcwoz10bj31cqrxs781qmk.html?title=true&access_token=pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm5uZWZpdjAzdTQzZ210eXJ1dnM3dnkifQ.hLiRMezDCPS1SgGUC1KJsQ#9.0/37.780000/-122.424100/0
